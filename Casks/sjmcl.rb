@@ -13,9 +13,9 @@ cask "sjmcl" do
 
   url "https://github.com/UNIkeEN/SJMCL/releases/download/v#{version}/SJMCL_#{version}_macos_#{arch}.dmg",
       verified: "github.com/UNIkeEN/SJMCL/"
-  
+
   name "SJMCL"
-  desc "🌟 A Minecraft launcher born from @SJMC-Dev, built with the community"
+  desc "A Minecraft launcher born from @SJMC-Dev, built with the community"
   homepage "https://github.com/UNIkeEN/SJMCL"
 
   app "SJMCL.app"
