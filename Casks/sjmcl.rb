@@ -1,14 +1,14 @@
 cask "sjmcl" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.1.3"
+  version "1.2.0"
 
   on_arm do
-    sha256 "05199b0d450f952618d41d7f3b325d1c641e5608fa6aded0db2bb3f1901ac9fe"
+    sha256 "d44808704f44c285287ae549bfb51a08afbb77d3f7101479d08ffbca825fe428"
   end
 
   on_intel do
-    sha256 "188c6932d0c91e058c688909d34569b8da7e66213ecad941ca6c304731da5fda"
+    sha256 "fbe480282ba149b33a27c6dc3e2b397b952d33e23cff57950da16f487f3dbe42"
   end
 
   url "https://github.com/UNIkeEN/SJMCL/releases/download/v#{version}/SJMCL_#{version}_macos_#{arch}.dmg",
